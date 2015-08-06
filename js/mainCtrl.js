@@ -22,9 +22,9 @@ app.controller('mainCtrl', function($scope, itunesService){
 
   //First inject itunesService into your controller.
 
-  $scope.songData = function(){
-    return itunesService
-  }
+  //$scope.songData = function(){
+    //return itunesService
+  //}
 
 
   //Now write a function that will call the method on the itunesService that is responsible for getting the data from iTunes, whenever the user clicks the submit button
